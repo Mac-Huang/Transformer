@@ -93,18 +93,6 @@ Epoch Step: 2 Loss: 2.117399 Tokens per Sec: 3856.200928
 ...
 ```
 
-## Project Structure
-
-```
-Handwritten-Transformer/
-├── Transformer.py   # Model definition
-├── train.py         # Training script
-├── README.md        # Project documentation (English)
-├── README.zh.md     # 项目文档 (中文)
-├── requirements.txt # Package requirements
-└── LICENSE          # License file
-```
-
 ### Files Description
 
 - **Transformer.py**
@@ -112,9 +100,7 @@ Handwritten-Transformer/
 - **train.py**
   - Includes the training loop, data generation for the copy task, loss computation with label smoothing, and optimizer setup.
 - **README.md**
-  - Provides project documentation and usage instructions in English.
-- **README.zh.md**
-  - 提供项目的中文文档和使用说明。
+  - Provides project documentation and usage instructions in English and Chinese.
 - **requirements.txt**
   - Lists the Python packages required to run the project.
 - **LICENSE**
@@ -270,17 +256,6 @@ Epoch Step: 2 Loss: 2.117399 Tokens per Sec: 3856.200928
 ...
 ```
 
-## 项目结构
-
-```
-Handwritten-Transformer/
-├── Transformer.py   # 模型定义
-├── train.py         # 训练脚本
-├── README.md        # Project documentation (English)
-├── README.zh.md     # 项目文档 (中文)
-├── requirements.txt # 依赖包列表
-└── LICENSE          # 许可证文件
-```
 
 ### 文件说明
 
@@ -289,9 +264,7 @@ Handwritten-Transformer/
 - **train.py**
   - 包含训练循环、用于复制任务的数据生成、带标签平滑的损失计算以及优化器设置。
 - **README.md**
-  - 提供项目的英文文档和使用说明。
-- **README.zh.md**
-  - 提供项目的中文文档和使用说明。
+  - 提供项目的中英文文档和使用说明。
 - **requirements.txt**
   - 列出了运行项目所需的 Python 包。
 - **LICENSE**
